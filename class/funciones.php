@@ -172,7 +172,7 @@ class funciones{
 		if(isset($_SESSION["ses_id"]))
 		{
 			$s_id=$_SESSION["ses_id"];
-			//$this->routing($this->path("panel"));
+			$this->routing($this->path("panel"));
 		}
 		else{
 			$this->routing($this->path("login"));
